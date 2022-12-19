@@ -22,10 +22,12 @@ export default function Home({ posts }: Props) {
                 <div className="flex justify-between items-center bg-yellow-450 py-10 lg:py-0 border border-black">
                     <div className="px-10 space-y-5">
                         <h1 className="font-serif text-7xl max-w-xl">
-                            <span className="underline decoration-black decoration-4">Medium </span>{" "}
+                            <span className="underline decoration-black text-black decoration-4">
+                                Medium{" "}
+                            </span>{" "}
                             is a place to Write, Read and Connect
                         </h1>
-                        <h2>
+                        <h2 className="text-black">
                             It&apos;s easy and free to post your thinking and connect to millions of
                             people.
                         </h2>
