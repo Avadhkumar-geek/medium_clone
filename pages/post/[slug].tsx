@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { sanityClient, urlFor } from "../../sanity";
 import React, { useState } from "react";
 import { Post } from "../../type";
